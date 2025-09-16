@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer h2 {
+  font-size: 24px;
+}
+
+.headerContainer nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.headerContainer nav a:hover {
+  color: #007bff;
+}
+
+.firstContainer {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.topSection h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.topSection p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+}
+
+.topSection .buttons {
+  margin-top: 20px;
+}
+
+.topSection .buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.topSection .buttons .loginBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+.topSection .buttons .signupBtn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.lastSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.lastSection .container {
+  max-width: 250px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.lastSection .container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
